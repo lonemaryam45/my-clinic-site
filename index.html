@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Ali Clinic | General Physician</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+    .container { max-width: 1100px; margin: auto; padding: 0 20px; }
+    header { background: #2c5aa0; color: white; padding: 60px 0; text-align: center; }
+    header h1 { font-size: 2.5rem; margin-bottom: 10px; }
+    header p { font-size: 1.2rem; }
+    .btn { display: inline-block; background: #ff6b35; color: white; padding: 12px 30px; text-decoration: none; border-radius: 5px; margin-top: 20px; }
+    .services { padding: 50px 0; text-align: center; }
+    .services h2 { font-size: 2rem; margin-bottom: 30px; }
+    .box { background: #f4f4f4; padding: 20px; margin: 10px; border-radius: 8px; }
+    .contact { background: #2c5aa0; color: white; padding: 50px 0; text-align: center; }
+    form { max-width: 500px; margin: 20px auto; }
+    input, textarea { width: 100%; padding: 12px; margin: 8px 0; border: none; border-radius: 5px; }
+    button { background: #ff6b35; color: white; padding: 12px; border: none; width: 100%; border-radius: 5px; font-size: 1.1rem; }
+    footer { background: #333; color: white; text-align: center; padding: 20px 0; }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Dr. Ali Clinic</h1>
+      <p>Your Health Is Our Priority | Pasrur, Punjab</p>
+      <a href="#contact" class="btn">Book Appointment</a>
+    </div>
+  </header>
+
+  <section class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="box">
+        <h3>General Checkup</h3>
+        <p>Complete health checkup with expert consultation</p>
+      </div>
+      <div class="box">
+        <h3>Emergency Care</h3>
+        <p>24/7 emergency services available</p>
+      </div>
+      <div class="box">
+        <h3>Lab Tests</h3>
+        <p>All types of blood tests and reports</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Book your appointment now. We will call you back!</p>
+      <form action="https://formspree.io/f/xvzjebrw" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="tel" name="phone" placeholder="Phone Number" required>
+        <textarea name="message" placeholder="Your Message" rows="4"></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>Dr. Ali Clinic © 2026 | Pasrur, Punjab | Call: 0300-1234567</p>
+  </footer>
+</body>
+</html>
